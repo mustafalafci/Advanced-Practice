@@ -22,6 +22,18 @@ public class Q01_If_Dsikriminant {
         int c= input.nextInt();
 
         int delta=b*b-4*a*c;
+        if (delta>0){
+            double x1=(-b+Math.sqrt(delta))/(2*a); // Math.sqrt karekök alma
+            double x2=(-b+Math.sqrt(delta))/(2*a);
+            System.out.println("Denklemin iki koku vardir: x1="+x1+" x2="+x2);
+            System.out.println();
+        } else if (delta==0) {
+            double x=-b/(2*a);
+            System.out.println("Denklemin birkoku vardir: x="+x);
+
+        }else {
+            System.out.println("Denklemin kökü yoktur.");
+        }
 
     }
 }
