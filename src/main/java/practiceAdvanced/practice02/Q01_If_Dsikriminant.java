@@ -34,6 +34,5 @@ public class Q01_If_Dsikriminant {
         }else {
             System.out.println("Denklemin kökü yoktur.");
         }
-
     }
 }
